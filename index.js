@@ -292,8 +292,6 @@ function getGermanCars(arr) {
 
   for (let i = 0; i < arr.length; i++) {
     if (arr[i].car_make == "Audi" || arr[i].car_make == "Mercedes-Benz" || arr[i].car_make == "Volkswagen" || arr[i].car_make == "BMW") {
-      console.log(i);
-      console.log(germanCars);
       germanCars.push(arr[i]);
     }
   }
